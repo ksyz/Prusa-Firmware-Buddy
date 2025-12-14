@@ -17,7 +17,7 @@ void reinit_lcd_and_redraw() {
 
 void check_lcd() {
     if (display::is_reset_required()) {
-        reinit_lcd_and_redraw();
+        //reinit_lcd_and_redraw();
     }
 }
 } // anonymous namespace
