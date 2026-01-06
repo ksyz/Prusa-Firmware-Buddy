@@ -630,8 +630,13 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4[, E5]]]]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 280 } //E0 280 295
-#define DEFAULT_AXIS_STEPS_PER_UNIT \
+
+/** #define DEFAULT_AXIS_STEPS_PER_UNIT \
     { 100, 100, 400, 325 } //E0 280 295
+*/
+#define DEFAULT_AXIS_STEPS_PER_UNIT \
+    { 101.47, 100.91, 400, 325 } //E0 280 295
+
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 3200, 1120 } //E0 280 295
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 1120 } //E0 280 295
 
